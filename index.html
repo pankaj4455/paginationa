@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Expertia</title>
+        <meta charset="UTF-8" >
+        <meta name="description" content="web development">
+        <meta name="keyword" content="html,css,javascript">
+        <meta name="author" content="pankaj">
+        <meta name="veiwport" width="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <style>
+        .baap{
+            width: 98%;
+            height: 900px;
+            border: 1px solid black;
+        }
+        #ac:active {
+  background-color: yellow;
+}
+        
+#ac{
+    background-color: green;
+}
+        .pagination{
+            display: flex;
+            justify-content: space-evenly;
+           
+        }
+        .pagination a{
+            text-decoration: none;
+        }
+        #hr{
+            width: 40px;
+            border-top: 2px solid red;
+        }
+        input{
+            margin: 40px;
+            border-radius: 20px;
+        }
+        .pdf{
+            display: flex;
+        }
+        .box{
+            width: 40%;
+            height: 400px;
+            border: 1px solid black;
+          
+        }
+        .brd{
+            width: 200px;
+            height: 200px;
+            border: 2px dotted black;
+            margin-left: 160px;
+        }
+        textarea{
+            margin: 10px;
+            width: 80%;
+            height: 150px;
+        }
+        .next{
+            position: absolute;
+            width: 140px;
+            right: 60px;
+            top: 800px;
+            background-color:gray;
+            border-radius: 20px;
+            
+        }
+        </style>
+        </head>
+        <body>
+            <div class="baap">
+            <div class="pagination">
+    
+              <a id="ac" href="">upload/create JD</a>
+               <a href="#" active>source candidate</a>
+                <a href="#">Get Results</a>
+                           </div>
+                           <div class="upload">
+                            <section>
+                                <label for="cmp">Tell us your company name:</label>
+                                <input type="text" placeholder="your company name" id="cmp">
+                                <label for="choose">Tell us your company name:</label>
+                                <input type="text" placeholder="choose role" id="choose">
+                            </section>
+                        </div>
+                        <div class="pdf">
+                            <div class="box">
+                                <h3><i class="fa fa-upload" style="font-size:24px"></i>upload a JD file</h3><span>use your file browser or just drag it</span>
+                                <p class="brd"><input type="file" id="myfile" name="myfile" multiple>pdf<br> <i class="fa fa-upload" style="font-size:36px"></i></p>
+                            </div>
+                            <div class="box">
+                                <i class="fa fa-link" style="font-size:24px"></i><h3>link a url</h3><span>copy and paste url from any job platform</span><br>
+                               <a href="#"> <i class="fa fa-linkedin" style="font-size:36px"></i></a>
+                               <a href="#"> <i class="fa fa-facebook" style="font-size:36px"></i></a>
+                               <a href="#">indeed</a>
+                               <a href="#">Tomejobs</a>
+                               <input type="text" placeholder= "enter url and search job---->">
+                            </div>
+                        </div>
+                        <div>
+                           <h4> <i class="fa fa-edit" style="font-size:36px"></i><span>create a new jd with Expertia</span></h4>
+                        <textarea>
+                            start typing your requirement....
+                            </textarea>
+                            </div>
+                            <h2 class="next"><a href="#">next</a></h2>
+                            </div>
+                         
+            </body>
+            </html>
